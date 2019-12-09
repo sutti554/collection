@@ -1,0 +1,45 @@
+body {
+    background-image: url(cat-dog-wallpaper-small.jpg);
+}
+
+img {
+    height: 20vw;
+    width: 20vw;
+ }
+ 
+ ul,
+ li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ ul#images,
+ ul#filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+ }
+ 
+ ul#filters li a {
+    color: black;
+    background-color: whitesmoke;
+    border-collapse: white;
+    border-width: 2px;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    padding: 2rem;
+    margin: 50px 20px 60px 20px;
+    text-decoration: none;
+ }
+ 
+ ul#filters li a:hover {
+    text-decoration: underline;
+ }
+ 
+ .hide {
+    display: none;
+ }
